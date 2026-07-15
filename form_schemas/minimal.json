@@ -1,0 +1,25 @@
+{
+    "title": "MWE",
+    "properties": {
+        "str_test": {
+            "type": "string",
+            "title": "string_test",
+            "default": ""
+        },
+        "int_test": {
+            "type": "integer",
+            "title": "int_test",
+            "default": 440
+        },
+        "num_test": {
+            "type": "number",
+            "title": "num_test",
+            "default": 440.3
+        },
+        "bool_test": {
+            "type": "boolean",
+            "title": "bool_test",
+            "default": True
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "title": "FM Repeater",
+    "properties": {
+        "channel_name": {
+            "type": "string",
+            "title": "Channel Name",
+            "default": ""
+        },
+        "receive_frequency": {
+            "type": "number",
+            "title": "Repeater's Transmit Freq (MHz)",
+            "default": 440
+        },
+        "transmit_frequency": {
+            "type": "number",
+            "title": "Repeater's Receive Freq (MHz)",
+            "default": 440
+        },
+        "channel_type": {
+            "type": "string",
+            "title": "Mode",
+            "default": "",
+            "oneOf": [
+                {"const": "A-Analog", "title": "Analogue FM"},
+                {"const": "D-Digital", "title": "Digital Voice"},
+                {"const": "A+D TX A", "title": "Analogue & Digital, TX on Analogue"},
+                {"const": "D+A TX D", "title": "Digital & Analogue, TX on Digital"}
+            ]
+        },
+        "transmit_power": {
+            "type": "string",
+            "title": "Transmit Power",
+            "default": "Mid",
+            "oneOf": [
+                {"const": "Low", "title": "Low (1W)" },
+                {"const": "Mid", "title": "Medium (2.5W)" },
+                {"const": "High", "title": "High (5W)" },
+                {"const": "Turbo", "title": "Turbo (6W UHF, 7W VHF)"}
+            ]
+        },
+        "band_width": {
+            "type": "string",
+            "title": "Channel Bandwidth",
+            "default": "",
+            "oneOf": [
+                {"const": "12.5K", "title": "Narrowband (12.5KHz)"},
+                {"const": "25K", "title": "Broadband (25KHz)"}
+            ]
+        },
+        "ctcss_dcs_decode": {
+            "type": "number",
+            "title": "CTCSS/DCS Decode",
+            "default": 0
+        },
+        "ctcss_dcs_encode": {
+            "type": "number",
+            "title": "CTCSS/DCS Encode",
+            "default": 0
+        },
+        "scan_list": {
+            "type": "string",
+            "title": "Scan List",
+            "default": "None",
+            "oneOf": [
+                {"const": "None", "title": "None"}
+            ]
+        },
+        "zone": {
+            "type": "string",
+            "title": "Channel Zone",
+            "default": "None",
+            "items": {
+            "oneOf": [
+                {"const": "None", "title": "None"}
+            ]
+            }
+        },
+        "no_": {
+            "type": "integer",
+            "title": "Channel Number",
+            "default": -1
+        }
+    }
+}

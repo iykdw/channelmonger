@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Annotated	models.py	/^from typing import Annotated$/;"	i
+Any	validators.py	/^from typing import Any$/;"	i
+BaseModel	models.py	/^from pydantic import BaseModel$/;"	i
+BaseRenderer	helpfulrenderer.py	/^from tui_forms.renderer.base import BaseRenderer$/;"	i
+BeforeValidator	models.py	/^from pydantic import BeforeValidator$/;"	i
+Channel	add_repeater.py	/^from models import Channel$/;"	i
+Channel	codeplug.py	/^from models import Channel$/;"	i
+Channel	main.py	/^from models import Channel$/;"	i
+Channel	models.py	/^class Channel(BaseModel):$/;"	c
+Dict	codeplug.py	/^from typing import Dict$/;"	i
+HelpfulRenderer	helpfulrenderer.py	/^class HelpfulRenderer(BaseRenderer):$/;"	c
+List	codeplug.py	/^from typing import List$/;"	i
+List	models.py	/^from typing import List$/;"	i
+List	validators.py	/^from typing import List$/;"	i
+ScanList	codeplug.py	/^from models import ScanList$/;"	i
+ScanList	models.py	/^class ScanList(BaseModel):$/;"	c
+TalkGroup	codeplug.py	/^from models import TalkGroup$/;"	i
+TalkGroup	models.py	/^class TalkGroup(BaseModel):$/;"	c
+Texttable	main.py	/^from texttable import Texttable$/;"	i
+Union	models.py	/^from typing import Union$/;"	i
+Zone	codeplug.py	/^from models import Zone$/;"	i
+Zone	models.py	/^class Zone(BaseModel):$/;"	c
+add_repeater	add_repeater.py	/^def add_repeater(codeplug, channel):$/;"	f
+add_repeater	main.py	/^from add_repeater import add_repeater$/;"	i
+annotations	add_repeater.py	/^from __future__ import annotations$/;"	i
+annotations	main.py	/^from __future__ import annotations$/;"	i
+colored	add_repeater.py	/^from termcolor import colored$/;"	i
+csv	codeplug.py	/^import csv$/;"	i
+dumps	codeplug.py	/^def dumps(path, codeplug):$/;"	f
+errors	validators.py	/^from inquirer import errors$/;"	i
+get_schema	add_repeater.py	/^def get_schema(name):$/;"	f
+header2key	codeplug.py	/^def header2key(key: str):$/;"	f
+import_zone_members	validators.py	/^def import_zone_members(string: str) -> List[Any]:$/;"	f
+inquirer	add_repeater.py	/^import inquirer$/;"	i
+inquirer_mhz_frequency_validator	add_repeater.py	/^from validators import inquirer_mhz_frequency_validator$/;"	i
+inquirer_mhz_frequency_validator	validators.py	/^def inquirer_mhz_frequency_validator(_, value):$/;"	f
+is_float	validators.py	/^def is_float(value):$/;"	f
+is_integer	validators.py	/^def is_integer(value):$/;"	f
+json	add_repeater.py	/^import json$/;"	i
+json	main.py	/^import json$/;"	i
+loads	codeplug.py	/^def loads(path):$/;"	f
+main	main.py	/^def main():$/;"	f
+plug	main.py	/^import codeplug as plug$/;"	i
+requests	add_repeater.py	/^import requests$/;"	i
+tx_mhz_frequency_validator	models.py	/^from validators import tx_mhz_frequency_validator$/;"	i
+tx_mhz_frequency_validator	validators.py	/^def tx_mhz_frequency_validator(value):$/;"	f

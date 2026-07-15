@@ -1,0 +1,15 @@
+[project]
+name = "channelmonger"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.13.4",
+    "requests>=2.34.2",
+    "termcolor>=3.3.0",
+    "tui-forms[rich]>=1.0.0b2",
+]
+
+[project.entry-points."tui_forms.renderers"]
+my_renderer = "helpfulrenderer:HelpfulRenderer"
